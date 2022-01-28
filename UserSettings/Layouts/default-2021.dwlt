@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 29
+  controlID: 27
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,7 +402,7 @@ MonoBehaviour:
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
+    currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
@@ -420,7 +420,25 @@ MonoBehaviour:
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -443,18 +461,708 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-01-28T17:47:26.340+01:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-01-28T17:47:26.490+01:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 1839222e4e7b02e40b2716dc438fea7de2bb6bab
+      mergeA: 
+      mergeB: 
+      authorName: Jose Ramon Jimenez Reyes
+      authorEmail: joseramon.jimenez@iesalandalus.org
+      commitEmail: joseramon.jimenez@iesalandalus.org
+      commitName: Jose Ramon Jimenez Reyes
+      summary: Commit inicial
+      description: 
+      timeString: 2022-01-28T17:23:43.000+01:00
+      commitTimeString: 2022-01-28T17:23:43.000+01:00
+      changes:
+      - path: .vscode/settings.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.vscode/settings.json
+        projectPath: .vscode/settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials.meta
+        projectPath: Assets/Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Amarillo.mat
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat
+        projectPath: Assets/Materials/Amarillo.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Amarillo.mat.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat.meta
+        projectPath: Assets/Materials/Amarillo.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Rojo.mat
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat
+        projectPath: Assets/Materials/Rojo.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Rojo.mat.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat.meta
+        projectPath: Assets/Materials/Rojo.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Verde.mat
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat
+        projectPath: Assets/Materials/Verde.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Verde.mat.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat.meta
+        projectPath: Assets/Materials/Verde.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins.meta
+        projectPath: Assets/Plugins.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub.meta
+        projectPath: Assets/Plugins/GitHub.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor.meta
+        projectPath: Assets/Plugins/GitHub/Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll
+        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt
+        projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt.meta
+        projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt
+        projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt.meta
+        projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll
+        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs.meta
+        projectPath: Assets/Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Enemigo.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab
+        projectPath: Assets/Prefabs/Enemigo.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Enemigo.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab.meta
+        projectPath: Assets/Prefabs/Enemigo.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Escalera.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab
+        projectPath: Assets/Prefabs/Escalera.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Escalera.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab.meta
+        projectPath: Assets/Prefabs/Escalera.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Primera.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab
+        projectPath: Assets/Prefabs/Primera.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Primera.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab.meta
+        projectPath: Assets/Prefabs/Primera.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Segunda.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab
+        projectPath: Assets/Prefabs/Segunda.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Segunda.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab.meta
+        projectPath: Assets/Prefabs/Segunda.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Tercera.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab
+        projectPath: Assets/Prefabs/Tercera.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Tercera.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab.meta
+        projectPath: Assets/Prefabs/Tercera.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes.meta
+        projectPath: Assets/Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena1.unity
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity
+        projectPath: Assets/Scenes/Escena1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena1.unity.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity.meta
+        projectPath: Assets/Scenes/Escena1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena2.unity
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity
+        projectPath: Assets/Scenes/Escena2.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena2.unity.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity.meta
+        projectPath: Assets/Scenes/Escena2.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Jerarquia.unity
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity
+        projectPath: Assets/Scenes/Jerarquia.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Jerarquia.unity.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity.meta
+        projectPath: Assets/Scenes/Jerarquia.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts.meta
+        projectPath: Assets/Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Posicion.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs
+        projectPath: Assets/Scripts/Posicion.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Posicion.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs.meta
+        projectPath: Assets/Scripts/Posicion.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs
+        projectPath: Assets/Scripts/Prueba.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs.meta
+        projectPath: Assets/Scripts/Prueba.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/manifest.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/packages-lock.json
+        projectPath: Packages/packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/AudioManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/AudioManager.asset
+        projectPath: ProjectSettings/AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ClusterInputManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ClusterInputManager.asset
+        projectPath: ProjectSettings/ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/DynamicsManager.asset
+        projectPath: ProjectSettings/DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorBuildSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorBuildSettings.asset
+        projectPath: ProjectSettings/EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorSettings.asset
+        projectPath: ProjectSettings/EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/GraphicsSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/GraphicsSettings.asset
+        projectPath: ProjectSettings/GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/InputManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/InputManager.asset
+        projectPath: ProjectSettings/InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/MemorySettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/MemorySettings.asset
+        projectPath: ProjectSettings/MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/NavMeshAreas.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/NavMeshAreas.asset
+        projectPath: ProjectSettings/NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PackageManagerSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PackageManagerSettings.asset
+        projectPath: ProjectSettings/PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        projectPath: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Physics2DSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Physics2DSettings.asset
+        projectPath: ProjectSettings/Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PresetManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PresetManager.asset
+        projectPath: ProjectSettings/PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectSettings.asset
+        projectPath: ProjectSettings/ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectVersion.txt
+        projectPath: ProjectSettings/ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/QualitySettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/QualitySettings.asset
+        projectPath: ProjectSettings/QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/SceneTemplateSettings.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/SceneTemplateSettings.json
+        projectPath: ProjectSettings/SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TagManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TagManager.asset
+        projectPath: ProjectSettings/TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TimeManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TimeManager.asset
+        projectPath: ProjectSettings/TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/UnityConnectSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/UnityConnectSettings.asset
+        projectPath: ProjectSettings/UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VFXManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VFXManager.asset
+        projectPath: ProjectSettings/VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VersionControlSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VersionControlSettings.asset
+        projectPath: ProjectSettings/VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/XRSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/XRSettings.asset
+        projectPath: ProjectSettings/XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/boot.config
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/boot.config
+        projectPath: ProjectSettings/boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/EditorUserSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/EditorUserSettings.asset
+        projectPath: UserSettings/EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.index
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.index
+        projectPath: UserSettings/Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.settings
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.settings
+        projectPath: UserSettings/Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: 519e8c3aaa828b4b25d863bbd482fab4f4677e4a
       mergeA: 
       mergeB: 
@@ -468,33 +1176,723 @@ MonoBehaviour:
       commitTimeString: 2022-01-28T17:14:06.000+01:00
       changes:
       - path: .gitattributes
-        fullPath: /home/joseramon/Unity/Proyectos/Primero 2021/.gitattributes
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: /home/joseramon/Unity/Proyectos/Primero 2021/.gitignore
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets/.gitignore
-        fullPath: /home/joseramon/Unity/Proyectos/Primero 2021/Assets/.gitignore
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/.gitignore
         projectPath: Assets/.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-01-28T17:14:07.198+01:00
+      updatedTimeString: 2022-01-28T17:47:29.989+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-01-28T17:14:07.193+01:00
+      updatedTimeString: 2022-01-28T17:47:26.519+01:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 1839222e4e7b02e40b2716dc438fea7de2bb6bab
+        mergeA: 
+        mergeB: 
+        authorName: Jose Ramon Jimenez Reyes
+        authorEmail: joseramon.jimenez@iesalandalus.org
+        commitEmail: joseramon.jimenez@iesalandalus.org
+        commitName: Jose Ramon Jimenez Reyes
+        summary: Commit inicial
+        description: 
+        timeString: 2022-01-28T17:23:43.000+01:00
+        commitTimeString: 2022-01-28T17:23:43.000+01:00
+        changes:
+        - path: .vscode/settings.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.vscode/settings.json
+          projectPath: .vscode/settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials.meta
+          projectPath: Assets/Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials/Amarillo.mat
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat
+          projectPath: Assets/Materials/Amarillo.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials/Amarillo.mat.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat.meta
+          projectPath: Assets/Materials/Amarillo.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials/Rojo.mat
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat
+          projectPath: Assets/Materials/Rojo.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials/Rojo.mat.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat.meta
+          projectPath: Assets/Materials/Rojo.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials/Verde.mat
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat
+          projectPath: Assets/Materials/Verde.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Materials/Verde.mat.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat.meta
+          projectPath: Assets/Materials/Verde.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins.meta
+          projectPath: Assets/Plugins.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub.meta
+          projectPath: Assets/Plugins/GitHub.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor.meta
+          projectPath: Assets/Plugins/GitHub/Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll
+          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/credits.txt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt
+          projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt.meta
+          projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/eula.txt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt
+          projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt.meta
+          projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.so
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll
+          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs.meta
+          projectPath: Assets/Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Enemigo.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab
+          projectPath: Assets/Prefabs/Enemigo.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Enemigo.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab.meta
+          projectPath: Assets/Prefabs/Enemigo.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Escalera.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab
+          projectPath: Assets/Prefabs/Escalera.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Escalera.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab.meta
+          projectPath: Assets/Prefabs/Escalera.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Primera.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab
+          projectPath: Assets/Prefabs/Primera.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Primera.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab.meta
+          projectPath: Assets/Prefabs/Primera.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Segunda.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab
+          projectPath: Assets/Prefabs/Segunda.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Segunda.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab.meta
+          projectPath: Assets/Prefabs/Segunda.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Tercera.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab
+          projectPath: Assets/Prefabs/Tercera.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Prefabs/Tercera.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab.meta
+          projectPath: Assets/Prefabs/Tercera.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes.meta
+          projectPath: Assets/Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/Escena1.unity
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity
+          projectPath: Assets/Scenes/Escena1.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/Escena1.unity.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity.meta
+          projectPath: Assets/Scenes/Escena1.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/Escena2.unity
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity
+          projectPath: Assets/Scenes/Escena2.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/Escena2.unity.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity.meta
+          projectPath: Assets/Scenes/Escena2.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/Jerarquia.unity
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity
+          projectPath: Assets/Scenes/Jerarquia.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scenes/Jerarquia.unity.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity.meta
+          projectPath: Assets/Scenes/Jerarquia.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts.meta
+          projectPath: Assets/Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Posicion.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs
+          projectPath: Assets/Scripts/Posicion.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Posicion.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs.meta
+          projectPath: Assets/Scripts/Posicion.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Prueba.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs
+          projectPath: Assets/Scripts/Prueba.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets/Scripts/Prueba.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs.meta
+          projectPath: Assets/Scripts/Prueba.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages/manifest.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages/packages-lock.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/AudioManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/AudioManager.asset
+          projectPath: ProjectSettings/AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ClusterInputManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ClusterInputManager.asset
+          projectPath: ProjectSettings/ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/DynamicsManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/EditorBuildSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorBuildSettings.asset
+          projectPath: ProjectSettings/EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/EditorSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorSettings.asset
+          projectPath: ProjectSettings/EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/GraphicsSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/GraphicsSettings.asset
+          projectPath: ProjectSettings/GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/InputManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/InputManager.asset
+          projectPath: ProjectSettings/InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/MemorySettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/MemorySettings.asset
+          projectPath: ProjectSettings/MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/NavMeshAreas.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/NavMeshAreas.asset
+          projectPath: ProjectSettings/NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/PackageManagerSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PackageManagerSettings.asset
+          projectPath: ProjectSettings/PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          projectPath: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/Physics2DSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Physics2DSettings.asset
+          projectPath: ProjectSettings/Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/PresetManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PresetManager.asset
+          projectPath: ProjectSettings/PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectSettings.asset
+          projectPath: ProjectSettings/ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/ProjectVersion.txt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/QualitySettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/QualitySettings.asset
+          projectPath: ProjectSettings/QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/SceneTemplateSettings.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/SceneTemplateSettings.json
+          projectPath: ProjectSettings/SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TagManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TagManager.asset
+          projectPath: ProjectSettings/TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/TimeManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TimeManager.asset
+          projectPath: ProjectSettings/TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/UnityConnectSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/UnityConnectSettings.asset
+          projectPath: ProjectSettings/UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/VFXManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VFXManager.asset
+          projectPath: ProjectSettings/VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/VersionControlSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VersionControlSettings.asset
+          projectPath: ProjectSettings/VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/XRSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/XRSettings.asset
+          projectPath: ProjectSettings/XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings/boot.config
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/boot.config
+          projectPath: ProjectSettings/boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/EditorUserSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/EditorUserSettings.asset
+          projectPath: UserSettings/EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Search.index
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.index
+          projectPath: UserSettings/Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings/Search.settings
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.settings
+          projectPath: UserSettings/Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: 519e8c3aaa828b4b25d863bbd482fab4f4677e4a
         mergeA: 
         mergeB: 
@@ -508,45 +1906,1046 @@ MonoBehaviour:
         commitTimeString: 2022-01-28T17:14:06.000+01:00
         changes:
         - path: .gitattributes
-          fullPath: /home/joseramon/Unity/Proyectos/Primero 2021/.gitattributes
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: /home/joseramon/Unity/Proyectos/Primero 2021/.gitignore
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets/.gitignore
-          fullPath: /home/joseramon/Unity/Proyectos/Primero 2021/Assets/.gitignore
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/.gitignore
           projectPath: Assets/.gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: -1
+      selectedIndex: 0
     selectedEntry:
-      commitID: 
+      commitID: 1839222e4e7b02e40b2716dc438fea7de2bb6bab
       mergeA: 
       mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
+      authorName: Jose Ramon Jimenez Reyes
+      authorEmail: joseramon.jimenez@iesalandalus.org
+      commitEmail: joseramon.jimenez@iesalandalus.org
+      commitName: Jose Ramon Jimenez Reyes
+      summary: Commit inicial
       description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
+      timeString: 2022-01-28T17:23:43.000+01:00
+      commitTimeString: 2022-01-28T17:23:43.000+01:00
+      changes:
+      - path: .vscode/settings.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.vscode/settings.json
+        projectPath: .vscode/settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials.meta
+        projectPath: Assets/Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Amarillo.mat
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat
+        projectPath: Assets/Materials/Amarillo.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Amarillo.mat.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat.meta
+        projectPath: Assets/Materials/Amarillo.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Rojo.mat
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat
+        projectPath: Assets/Materials/Rojo.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Rojo.mat.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat.meta
+        projectPath: Assets/Materials/Rojo.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Verde.mat
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat
+        projectPath: Assets/Materials/Verde.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Materials/Verde.mat.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat.meta
+        projectPath: Assets/Materials/Verde.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins.meta
+        projectPath: Assets/Plugins.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub.meta
+        projectPath: Assets/Plugins/GitHub.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor.meta
+        projectPath: Assets/Plugins/GitHub/Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll
+        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt
+        projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt.meta
+        projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt
+        projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt.meta
+        projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll
+        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs.meta
+        projectPath: Assets/Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Enemigo.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab
+        projectPath: Assets/Prefabs/Enemigo.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Enemigo.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab.meta
+        projectPath: Assets/Prefabs/Enemigo.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Escalera.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab
+        projectPath: Assets/Prefabs/Escalera.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Escalera.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab.meta
+        projectPath: Assets/Prefabs/Escalera.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Primera.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab
+        projectPath: Assets/Prefabs/Primera.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Primera.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab.meta
+        projectPath: Assets/Prefabs/Primera.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Segunda.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab
+        projectPath: Assets/Prefabs/Segunda.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Segunda.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab.meta
+        projectPath: Assets/Prefabs/Segunda.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Tercera.prefab
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab
+        projectPath: Assets/Prefabs/Tercera.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Prefabs/Tercera.prefab.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab.meta
+        projectPath: Assets/Prefabs/Tercera.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes.meta
+        projectPath: Assets/Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena1.unity
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity
+        projectPath: Assets/Scenes/Escena1.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena1.unity.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity.meta
+        projectPath: Assets/Scenes/Escena1.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena2.unity
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity
+        projectPath: Assets/Scenes/Escena2.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Escena2.unity.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity.meta
+        projectPath: Assets/Scenes/Escena2.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Jerarquia.unity
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity
+        projectPath: Assets/Scenes/Jerarquia.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scenes/Jerarquia.unity.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity.meta
+        projectPath: Assets/Scenes/Jerarquia.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts.meta
+        projectPath: Assets/Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Posicion.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs
+        projectPath: Assets/Scripts/Posicion.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Posicion.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs.meta
+        projectPath: Assets/Scripts/Posicion.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs
+        projectPath: Assets/Scripts/Prueba.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs.meta
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs.meta
+        projectPath: Assets/Scripts/Prueba.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/manifest.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/manifest.json
+        projectPath: Packages/manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/packages-lock.json
+        projectPath: Packages/packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/AudioManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/AudioManager.asset
+        projectPath: ProjectSettings/AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ClusterInputManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ClusterInputManager.asset
+        projectPath: ProjectSettings/ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/DynamicsManager.asset
+        projectPath: ProjectSettings/DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorBuildSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorBuildSettings.asset
+        projectPath: ProjectSettings/EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/EditorSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorSettings.asset
+        projectPath: ProjectSettings/EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/GraphicsSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/GraphicsSettings.asset
+        projectPath: ProjectSettings/GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/InputManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/InputManager.asset
+        projectPath: ProjectSettings/InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/MemorySettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/MemorySettings.asset
+        projectPath: ProjectSettings/MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/NavMeshAreas.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/NavMeshAreas.asset
+        projectPath: ProjectSettings/NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PackageManagerSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PackageManagerSettings.asset
+        projectPath: ProjectSettings/PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        projectPath: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/Physics2DSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Physics2DSettings.asset
+        projectPath: ProjectSettings/Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/PresetManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PresetManager.asset
+        projectPath: ProjectSettings/PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectSettings.asset
+        projectPath: ProjectSettings/ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectVersion.txt
+        projectPath: ProjectSettings/ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/QualitySettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/QualitySettings.asset
+        projectPath: ProjectSettings/QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/SceneTemplateSettings.json
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/SceneTemplateSettings.json
+        projectPath: ProjectSettings/SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TagManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TagManager.asset
+        projectPath: ProjectSettings/TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/TimeManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TimeManager.asset
+        projectPath: ProjectSettings/TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/UnityConnectSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/UnityConnectSettings.asset
+        projectPath: ProjectSettings/UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VFXManager.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VFXManager.asset
+        projectPath: ProjectSettings/VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/VersionControlSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VersionControlSettings.asset
+        projectPath: ProjectSettings/VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/XRSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/XRSettings.asset
+        projectPath: ProjectSettings/XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings/boot.config
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/boot.config
+        projectPath: ProjectSettings/boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/EditorUserSettings.asset
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/EditorUserSettings.asset
+        projectPath: UserSettings/EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/default-2021.dwlt
+        projectPath: UserSettings/Layouts/default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.index
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.index
+        projectPath: UserSettings/Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings/Search.settings
+        fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.settings
+        projectPath: UserSettings/Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - .vscode
+        - Assets
+        - Assets/Materials
+        - Assets/Plugins
+        - Assets/Plugins/GitHub
+        - Assets/Plugins/GitHub/Editor
+        - Assets/Plugins/GitHub/Editor/x64
+        - Assets/Plugins/GitHub/Editor/x86
+        - Assets/Prefabs
+        - Assets/Scenes
+        - Assets/Scripts
+        - Packages
+        - ProjectSettings
+        - ProjectSettings/Packages
+        - ProjectSettings/Packages/com.unity.testtools.codecoverage
+        - UserSettings
+        - UserSettings/Layouts
+        values:
+        - path: .vscode
+          label: .vscode
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Materials
+          label: Materials
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Plugins/GitHub
+          label: GitHub
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor
+          label: Editor
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x64
+          label: x64
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Plugins/GitHub/Editor/x86
+          label: x86
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings/Packages
+          label: Packages
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings/Packages/com.unity.testtools.codecoverage
+          label: com.unity.testtools.codecoverage
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings/Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -556,7 +2955,2365 @@ MonoBehaviour:
       isSelectable: 1
       isCheckable: 0
       isUsingGlobalSelection: 0
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vscode
+        label: .vscode
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vscode/settings.json
+        label: settings.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vscode/settings.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/.vscode/settings.json
+          projectPath: .vscode/settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Materials.meta
+        label: Materials.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials.meta
+          projectPath: Assets/Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Materials
+        label: Materials
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Materials/Amarillo.mat
+        label: Amarillo.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials/Amarillo.mat
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat
+          projectPath: Assets/Materials/Amarillo.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Materials/Amarillo.mat.meta
+        label: Amarillo.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials/Amarillo.mat.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Amarillo.mat.meta
+          projectPath: Assets/Materials/Amarillo.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Materials/Rojo.mat
+        label: Rojo.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials/Rojo.mat
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat
+          projectPath: Assets/Materials/Rojo.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Materials/Rojo.mat.meta
+        label: Rojo.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials/Rojo.mat.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Rojo.mat.meta
+          projectPath: Assets/Materials/Rojo.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Materials/Verde.mat
+        label: Verde.mat
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials/Verde.mat
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat
+          projectPath: Assets/Materials/Verde.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Materials/Verde.mat.meta
+        label: Verde.mat.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Materials/Verde.mat.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Materials/Verde.mat.meta
+          projectPath: Assets/Materials/Verde.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins.meta
+        label: Plugins.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins.meta
+          projectPath: Assets/Plugins.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins
+        label: Plugins
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub.meta
+        label: GitHub.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub.meta
+          projectPath: Assets/Plugins/GitHub.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub
+        label: GitHub
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor.meta
+        label: Editor.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor.meta
+          projectPath: Assets/Plugins/GitHub/Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor
+        label: Editor
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+        label: AsyncBridge.Net35.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+        label: AsyncBridge.Net35.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+        label: ExtensionLoader.cs
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+        label: ExtensionLoader.cs.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+        label: GitHub.Api.45.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+        label: GitHub.Api.45.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+        label: GitHub.Api.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+        label: GitHub.Api.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+        label: GitHub.Logging.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+        label: GitHub.Logging.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+        label: GitHub.Unity.45.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+        label: GitHub.Unity.45.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+        label: GitHub.Unity.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+        label: GitHub.Unity.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+        label: GitHub.UnityShim.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+        label: GitHub.UnityShim.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+        label: Mono.Posix.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+        label: Mono.Posix.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+        label: QuickGuide.pdf
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+        label: QuickGuide.pdf.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+        label: ReadOnlyCollectionsInterfaces.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+        label: ReadOnlyCollectionsInterfaces.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+        label: System.Threading.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll
+          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+        label: System.Threading.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+        label: UnityAPIWrapper.cs
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+        label: UnityAPIWrapper.cs.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+        label: big-logo@2x.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+        label: big-logo@2x.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt
+        label: credits.txt
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/credits.txt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt
+          projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+        label: credits.txt.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/credits.txt.meta
+          projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt
+        label: eula.txt
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/eula.txt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt
+          projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+        label: eula.txt.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/eula.txt.meta
+          projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+        label: libsfw.bundle
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+        label: libsfw.bundle.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so
+        label: libsfw.so
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/libsfw.so
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+        label: libsfw.so.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+        label: sfw.net.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll
+          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+        label: sfw.net.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64.meta
+        label: x64.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x64.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64
+        label: x64
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+        label: pthreadVC2.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+        label: pthreadVC2.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+        label: sfw_x64.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+        label: sfw_x64.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86.meta
+        label: x86.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x86.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86
+        label: x86
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+        label: pthreadVC2.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+        label: pthreadVC2.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+        label: sfw_x86.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+        label: sfw_x86.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs.meta
+        label: Prefabs.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs.meta
+          projectPath: Assets/Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Enemigo.prefab
+        label: Enemigo.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Enemigo.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab
+          projectPath: Assets/Prefabs/Enemigo.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Enemigo.prefab.meta
+        label: Enemigo.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Enemigo.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Enemigo.prefab.meta
+          projectPath: Assets/Prefabs/Enemigo.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Escalera.prefab
+        label: Escalera.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Escalera.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab
+          projectPath: Assets/Prefabs/Escalera.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Escalera.prefab.meta
+        label: Escalera.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Escalera.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Escalera.prefab.meta
+          projectPath: Assets/Prefabs/Escalera.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Primera.prefab
+        label: Primera.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Primera.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab
+          projectPath: Assets/Prefabs/Primera.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Primera.prefab.meta
+        label: Primera.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Primera.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Primera.prefab.meta
+          projectPath: Assets/Prefabs/Primera.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Segunda.prefab
+        label: Segunda.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Segunda.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab
+          projectPath: Assets/Prefabs/Segunda.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Segunda.prefab.meta
+        label: Segunda.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Segunda.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Segunda.prefab.meta
+          projectPath: Assets/Prefabs/Segunda.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Tercera.prefab
+        label: Tercera.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Tercera.prefab
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab
+          projectPath: Assets/Prefabs/Tercera.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Prefabs/Tercera.prefab.meta
+        label: Tercera.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Prefabs/Tercera.prefab.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Prefabs/Tercera.prefab.meta
+          projectPath: Assets/Prefabs/Tercera.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes.meta
+        label: Scenes.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes.meta
+          projectPath: Assets/Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Scenes/Escena1.unity
+        label: Escena1.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/Escena1.unity
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity
+          projectPath: Assets/Scenes/Escena1.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes/Escena1.unity.meta
+        label: Escena1.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/Escena1.unity.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena1.unity.meta
+          projectPath: Assets/Scenes/Escena1.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes/Escena2.unity
+        label: Escena2.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/Escena2.unity
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity
+          projectPath: Assets/Scenes/Escena2.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes/Escena2.unity.meta
+        label: Escena2.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/Escena2.unity.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Escena2.unity.meta
+          projectPath: Assets/Scenes/Escena2.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes/Jerarquia.unity
+        label: Jerarquia.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/Jerarquia.unity
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity
+          projectPath: Assets/Scenes/Jerarquia.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scenes/Jerarquia.unity.meta
+        label: Jerarquia.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/Jerarquia.unity.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scenes/Jerarquia.unity.meta
+          projectPath: Assets/Scenes/Jerarquia.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scripts.meta
+        label: Scripts.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts.meta
+          projectPath: Assets/Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Scripts/Posicion.cs
+        label: Posicion.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/Posicion.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs
+          projectPath: Assets/Scripts/Posicion.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scripts/Posicion.cs.meta
+        label: Posicion.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/Posicion.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Posicion.cs.meta
+          projectPath: Assets/Scripts/Posicion.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs
+        label: Prueba.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/Prueba.cs
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs
+          projectPath: Assets/Scripts/Prueba.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Scripts/Prueba.cs.meta
+        label: Prueba.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/Prueba.cs.meta
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Assets/Scripts/Prueba.cs.meta
+          projectPath: Assets/Scripts/Prueba.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages/manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages/manifest.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/manifest.json
+          projectPath: Packages/manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Packages/packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages/packages-lock.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/Packages/packages-lock.json
+          projectPath: Packages/packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings/AudioManager.asset
+        label: AudioManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/AudioManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/AudioManager.asset
+          projectPath: ProjectSettings/AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/ClusterInputManager.asset
+        label: ClusterInputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/ClusterInputManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ClusterInputManager.asset
+          projectPath: ProjectSettings/ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/DynamicsManager.asset
+        label: DynamicsManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/DynamicsManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/DynamicsManager.asset
+          projectPath: ProjectSettings/DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/EditorBuildSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorBuildSettings.asset
+          projectPath: ProjectSettings/EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/EditorSettings.asset
+        label: EditorSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/EditorSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/EditorSettings.asset
+          projectPath: ProjectSettings/EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/GraphicsSettings.asset
+        label: GraphicsSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/GraphicsSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/GraphicsSettings.asset
+          projectPath: ProjectSettings/GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/InputManager.asset
+        label: InputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/InputManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/InputManager.asset
+          projectPath: ProjectSettings/InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/MemorySettings.asset
+        label: MemorySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/MemorySettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/MemorySettings.asset
+          projectPath: ProjectSettings/MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/NavMeshAreas.asset
+        label: NavMeshAreas.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/NavMeshAreas.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/NavMeshAreas.asset
+          projectPath: ProjectSettings/NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/PackageManagerSettings.asset
+        label: PackageManagerSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/PackageManagerSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PackageManagerSettings.asset
+          projectPath: ProjectSettings/PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/Packages
+        label: Packages
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings/Packages/com.unity.testtools.codecoverage
+        label: com.unity.testtools.codecoverage
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+        label: Settings.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          projectPath: ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/Physics2DSettings.asset
+        label: Physics2DSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/Physics2DSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/Physics2DSettings.asset
+          projectPath: ProjectSettings/Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/PresetManager.asset
+        label: PresetManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/PresetManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/PresetManager.asset
+          projectPath: ProjectSettings/PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/ProjectSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectSettings.asset
+          projectPath: ProjectSettings/ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/ProjectVersion.txt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/ProjectVersion.txt
+          projectPath: ProjectSettings/ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/QualitySettings.asset
+        label: QualitySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/QualitySettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/QualitySettings.asset
+          projectPath: ProjectSettings/QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/SceneTemplateSettings.json
+        label: SceneTemplateSettings.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/SceneTemplateSettings.json
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/SceneTemplateSettings.json
+          projectPath: ProjectSettings/SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/TagManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TagManager.asset
+          projectPath: ProjectSettings/TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/TimeManager.asset
+        label: TimeManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/TimeManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/TimeManager.asset
+          projectPath: ProjectSettings/TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/UnityConnectSettings.asset
+        label: UnityConnectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/UnityConnectSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/UnityConnectSettings.asset
+          projectPath: ProjectSettings/UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/VFXManager.asset
+        label: VFXManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/VFXManager.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VFXManager.asset
+          projectPath: ProjectSettings/VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/VersionControlSettings.asset
+        label: VersionControlSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/VersionControlSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/VersionControlSettings.asset
+          projectPath: ProjectSettings/VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/XRSettings.asset
+        label: XRSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/XRSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/XRSettings.asset
+          projectPath: ProjectSettings/XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings/boot.config
+        label: boot.config
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings/boot.config
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/ProjectSettings/boot.config
+          projectPath: ProjectSettings/boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/EditorUserSettings.asset
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/EditorUserSettings.asset
+          projectPath: UserSettings/EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings/Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings/Search.index
+        label: Search.index
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Search.index
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.index
+          projectPath: UserSettings/Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings/Search.settings
+        label: Search.settings
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Search.settings
+          fullPath: /home/joseramon/Unity/Proyectos/Primero2021/UserSettings/Search.settings
+          projectPath: UserSettings/Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -587,11 +5344,11 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-01-28T17:20:42.857+01:00
+      cacheType: 1
     metricsEnabled: 1
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
+    newRepositoryRemoteUrl: https://github.com/JRJimenezReyes/Primero2021.git
+    repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
@@ -601,7 +5358,7 @@ MonoBehaviour:
       newGitEmail: joseramon.jimenez@iesalandalus.org
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-01-28T17:08:58.553+01:00
+        updatedTimeString: 2022-01-28T17:20:47.351+01:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -655,7 +5412,7 @@ MonoBehaviour:
   currentRemoteUrl: No remote configured
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 0
   currentBranchContent:
     m_Text: master
@@ -666,13 +5423,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Add a remote in the Settings tab
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-01-28T17:14:07.195+01:00
+    updatedTimeString: 2022-01-28T17:47:26.340+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-01-28T17:14:07.193+01:00
+    updatedTimeString: 2022-01-28T17:47:26.519+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-01-28T17:14:07.430+01:00
+    updatedTimeString: 2022-01-28T17:47:26.490+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -692,8 +5449,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  appManagerProgressValue: 0.5
+  appManagerProgressMessage: Setting up git...
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &13
@@ -736,23 +5493,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 1
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Prefabs
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 16
-  m_LastFolders:
-  - Assets/Materials
+  m_LastFolders: []
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: /home/joseramon/Unity/Proyectos/Primero 2021
+  m_LastProjectPath: /home/joseramon/Unity/Proyectos/Primero2021
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 96580000
     m_LastClickedID: 22678
-    m_ExpandedIDs: 0000000086590000885900008a5900008c5900008e590000
+    m_ExpandedIDs: 000000008e59000090590000925900009459000096590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -780,7 +5535,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000086590000885900008a5900008c5900008e590000
+    m_ExpandedIDs: ffffffff000000008e59000090590000925900009459000096590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
